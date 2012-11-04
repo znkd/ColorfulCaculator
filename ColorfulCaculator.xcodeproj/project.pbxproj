@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15A0560F16462485004D207E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15A0560E16462485004D207E /* UIKit.framework */; };
+		15A0561116462485004D207E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15A0561016462485004D207E /* Foundation.framework */; };
+		15A0561316462485004D207E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15A0561216462485004D207E /* CoreGraphics.framework */; };
+		15A0561916462485004D207E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15A0561716462485004D207E /* InfoPlist.strings */; };
+		15A0561B16462485004D207E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A0561A16462485004D207E /* main.m */; };
+		15A0561F16462485004D207E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A0561E16462485004D207E /* AppDelegate.m */; };
+		15A0562216462485004D207E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A0562116462485004D207E /* ViewController.m */; };
+		15A0562516462485004D207E /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15A0562316462485004D207E /* ViewController_iPhone.xib */; };
+		15A0562816462485004D207E /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15A0562616462485004D207E /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15A0560A16462485004D207E /* ColorfulCaculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorfulCaculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15A0560E16462485004D207E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		15A0561016462485004D207E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		15A0561216462485004D207E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		15A0561616462485004D207E /* ColorfulCaculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColorfulCaculator-Info.plist"; sourceTree = "<group>"; };
+		15A0561816462485004D207E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		15A0561A16462485004D207E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		15A0561C16462485004D207E /* ColorfulCaculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ColorfulCaculator-Prefix.pch"; sourceTree = "<group>"; };
+		15A0561D16462485004D207E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		15A0561E16462485004D207E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		15A0562016462485004D207E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		15A0562116462485004D207E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		15A0562416462485004D207E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		15A0562716462485004D207E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15A0560716462485004D207E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15A0560F16462485004D207E /* UIKit.framework in Frameworks */,
+				15A0561116462485004D207E /* Foundation.framework in Frameworks */,
+				15A0561316462485004D207E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15A055FF16462484004D207E = {
+			isa = PBXGroup;
+			children = (
+				15A0561416462485004D207E /* ColorfulCaculator */,
+				15A0560D16462485004D207E /* Frameworks */,
+				15A0560B16462485004D207E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15A0560B16462485004D207E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15A0560A16462485004D207E /* ColorfulCaculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15A0560D16462485004D207E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15A0560E16462485004D207E /* UIKit.framework */,
+				15A0561016462485004D207E /* Foundation.framework */,
+				15A0561216462485004D207E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15A0561416462485004D207E /* ColorfulCaculator */ = {
+			isa = PBXGroup;
+			children = (
+				15A0561D16462485004D207E /* AppDelegate.h */,
+				15A0561E16462485004D207E /* AppDelegate.m */,
+				15A0562016462485004D207E /* ViewController.h */,
+				15A0562116462485004D207E /* ViewController.m */,
+				15A0562316462485004D207E /* ViewController_iPhone.xib */,
+				15A0562616462485004D207E /* ViewController_iPad.xib */,
+				15A0561516462485004D207E /* Supporting Files */,
+			);
+			path = ColorfulCaculator;
+			sourceTree = "<group>";
+		};
+		15A0561516462485004D207E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15A0561616462485004D207E /* ColorfulCaculator-Info.plist */,
+				15A0561716462485004D207E /* InfoPlist.strings */,
+				15A0561A16462485004D207E /* main.m */,
+				15A0561C16462485004D207E /* ColorfulCaculator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15A0560916462485004D207E /* ColorfulCaculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15A0562B16462485004D207E /* Build configuration list for PBXNativeTarget "ColorfulCaculator" */;
+			buildPhases = (
+				15A0560616462485004D207E /* Sources */,
+				15A0560716462485004D207E /* Frameworks */,
+				15A0560816462485004D207E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorfulCaculator;
+			productName = ColorfulCaculator;
+			productReference = 15A0560A16462485004D207E /* ColorfulCaculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15A0560116462484004D207E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 15A0560416462484004D207E /* Build configuration list for PBXProject "ColorfulCaculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 15A055FF16462484004D207E;
+			productRefGroup = 15A0560B16462485004D207E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15A0560916462485004D207E /* ColorfulCaculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15A0560816462485004D207E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15A0561916462485004D207E /* InfoPlist.strings in Resources */,
+				15A0562516462485004D207E /* ViewController_iPhone.xib in Resources */,
+				15A0562816462485004D207E /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15A0560616462485004D207E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15A0561B16462485004D207E /* main.m in Sources */,
+				15A0561F16462485004D207E /* AppDelegate.m in Sources */,
+				15A0562216462485004D207E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		15A0561716462485004D207E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15A0561816462485004D207E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		15A0562316462485004D207E /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15A0562416462485004D207E /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		15A0562616462485004D207E /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15A0562716462485004D207E /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15A0562916462485004D207E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15A0562A16462485004D207E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15A0562C16462485004D207E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorfulCaculator/ColorfulCaculator-Prefix.pch";
+				INFOPLIST_FILE = "ColorfulCaculator/ColorfulCaculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		15A0562D16462485004D207E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorfulCaculator/ColorfulCaculator-Prefix.pch";
+				INFOPLIST_FILE = "ColorfulCaculator/ColorfulCaculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15A0560416462484004D207E /* Build configuration list for PBXProject "ColorfulCaculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15A0562916462485004D207E /* Debug */,
+				15A0562A16462485004D207E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15A0562B16462485004D207E /* Build configuration list for PBXNativeTarget "ColorfulCaculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15A0562C16462485004D207E /* Debug */,
+				15A0562D16462485004D207E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15A0560116462484004D207E /* Project object */;
+}
