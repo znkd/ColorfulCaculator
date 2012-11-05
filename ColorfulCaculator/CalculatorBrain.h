@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CalculatorBrain.h
 //  ColorfulCaculator
 //
 //  Created by ufida on 12-11-4.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UILabel *display;
+@interface CalculatorBrain : NSObject
 
-
+-(void) pushOperand:(double)operand;
+-(double)performOperation:(NSString*)operation;
 @end

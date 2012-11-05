@@ -16,6 +16,7 @@
 		15A0562216462485004D207E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A0562116462485004D207E /* ViewController.m */; };
 		15A0562516462485004D207E /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15A0562316462485004D207E /* ViewController_iPhone.xib */; };
 		15A0562816462485004D207E /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15A0562616462485004D207E /* ViewController_iPad.xib */; };
+		15A05639164658DF004D207E /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A05638164658DF004D207E /* CalculatorBrain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,8 @@
 		15A0562116462485004D207E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		15A0562416462485004D207E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		15A0562716462485004D207E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		15A05637164658DF004D207E /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalculatorBrain.h; path = ColorfulCaculator/CalculatorBrain.h; sourceTree = "<group>"; };
+		15A05638164658DF004D207E /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalculatorBrain.m; path = ColorfulCaculator/CalculatorBrain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +55,8 @@
 		15A055FF16462484004D207E = {
 			isa = PBXGroup;
 			children = (
+				15A05637164658DF004D207E /* CalculatorBrain.h */,
+				15A05638164658DF004D207E /* CalculatorBrain.m */,
 				15A0561416462485004D207E /* ColorfulCaculator */,
 				15A0560D16462485004D207E /* Frameworks */,
 				15A0560B16462485004D207E /* Products */,
@@ -167,6 +172,7 @@
 				15A0561B16462485004D207E /* main.m in Sources */,
 				15A0561F16462485004D207E /* AppDelegate.m in Sources */,
 				15A0562216462485004D207E /* ViewController.m in Sources */,
+				15A05639164658DF004D207E /* CalculatorBrain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +294,7 @@
 				15A0562D16462485004D207E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
