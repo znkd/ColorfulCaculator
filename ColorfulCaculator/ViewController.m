@@ -15,6 +15,7 @@
 
 @implementation ViewController
 @synthesize display = _display;
+@synthesize displayexpressions = _displayexpressions;
 @synthesize userIsInTheMiddleOfEnteringANumber = _userIsInTheMiddleOfEnteringANumber;
 @synthesize brain = _brain;
 
@@ -47,6 +48,11 @@
     NSString* resultString = [NSString stringWithFormat:@"%g",result];
     self.display.text = resultString;
 }
+- (IBAction)cleanResult:(UIButton *)sender {
+    self.userIsInTheMiddleOfEnteringANumber = NO;
+    self.display.text = @"0";
+    [self.brain cleanOperandStack];
+}
 
 - (void)viewDidLoad
 {
@@ -57,6 +63,7 @@
 - (void)viewDidUnload
 {
     [self setDisplay:nil];
+    [self setDisplayexpressions:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
