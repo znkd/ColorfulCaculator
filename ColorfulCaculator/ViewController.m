@@ -32,10 +32,13 @@
     if(self.userIsInTheMiddleOfEnteringANumber)
     {
         self.display.text = [self.display.text stringByAppendingString:digit];
+        
     } else {
         self.display.text = digit;
         self.userIsInTheMiddleOfEnteringANumber = YES;
     }
+    
+    self.displayexpressions.text = [self.displayexpressions.text stringByAppendingString:digit];
 }
 - (IBAction)enterPressed {
     [self.brain pushOperand:[self.display.text doubleValue]];
@@ -43,6 +46,8 @@
 }
 - (IBAction)operationPressed:(UIButton*)sender 
 {
+    self.displayexpressions.text = [self.displayexpressions.text stringByAppendingString:sender.titleLabel.text];
+    
     if(self.userIsInTheMiddleOfEnteringANumber) return [self enterPressed];
     double result = [self.brain performOperation:sender.currentTitle];
     NSString* resultString = [NSString stringWithFormat:@"%g",result];
@@ -51,6 +56,7 @@
 - (IBAction)cleanResult:(UIButton *)sender {
     self.userIsInTheMiddleOfEnteringANumber = NO;
     self.display.text = @"0";
+    self.displayexpressions.text = @"";
     [self.brain cleanOperandStack];
 }
 
